@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <title>228 Assignment 3</title>
-    <meta charset="utf-8">
+     <title>228 Assignment 3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body style="background-color:#EEF2E3";">
-                                       
-  <h1 style="color: black; font-size: 96px; font-family: Capriola; font-weight: 400">Areeba Shaikh</h1>
+
+
+  <h1 style="color: black; font-family: Capriola; font-weight: 400">Areeba Shaikh</h1>
   
-  <h2 style="color: black; font-size: 64px; font-family: Bhavuka; font-weight: 400">Digital Design Portfolio</h2>
+  <p style="color: black; font-size: 64px; font-family: Bhavuka; font-weight: 400">Digital Design Portfolio</p>
   
-  <a href="About">About</a>
-  <a href="Projects">Projects</a>
-  <a href="Textile II: Spaces">Textile II: Spaces</a>
+  <canvas id="halfCircle" width="x" height="y"></canvas>
+  <script>
+   var c = document.getElementById("halfCircle");
+   var ctx = c.getContext("2d");
+   ctx.beginPath();
+   ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+   ctx.fill();
+  </script>
+  
+  <ul>
+   <li><a href="About">About</a></li>
+   <li><a href="Projects">Projects</a></li>
+   <li><a href="Textile II: Spaces">Textile II: Spaces</a></li>
+  </ul>
       
-  <h3 id="About" style="color: black; font-size: 55px; font-family: Capriola">About</h3>
+  <h2 id="About" style="color: black; font-family: Capriola">About</h2>
   
   <p style="color: black; font-size: 34px; font-family: Aleo">My name is Areeba Shaikh and I’m a digital designer based in the Waterloo Region.
   I am currently studying Global Business and Digital Arts at the University of Waterloo, where my degree has a central focus on digital design.
@@ -25,9 +37,9 @@
   Furthermore, this helped me flourish within the business community as I was able to learn crucial networking skills through the events I planned and through the people I connected with.
   This encouraged me to pursue a degree I am both passionate about and will continue to be challenged by, business and design.</p>
     
-  <h4 id="Projects" style="color: black; font-size: 55px; font-family: Capriola">Projects</h4>
+  <h2 id="Projects" style="color: black; font-family: Capriola">Projects</h2>
     
-  <div style="color: black; font-size: 64px; font-family: Bhavuka">Stream Me</div>
+  <h3 style="color: black; font-family: Bhavuka">Stream Me</h3>
   
   <p style="color: black; font-size: 34px; font-family: Aleo; font-style: italic">“Welcome to Stream Me, where entertainment meets convenience.
   Immerse yourself in a world of endless streaming possibilities with our user-friendly mock-up app designed to elevate your viewing experience.
@@ -38,7 +50,7 @@
   Keeping things simple yet feature-packed is key, and collaboration is crucial for improvement.
   Overall, I've learned the art of blending creativity with functionality in creating an enjoyable and efficient user experience.</p>
   
-  <div style="color: black; font-size: 64px; font-family: Bhavuka">Flavour Sphere</div>
+  <h3 style="color: black; font-family: Bhavuka">Flavour Sphere</h3>
   
   <p style="color: black; font-size: 34px; font-family: Aleo">We started this journey by identifying the key issues that plagued many existing cooking apps.
   Users often complained about complicated user interfaces, ineffective search functionality, limited customization options, and inconsistent recipe quality.
@@ -51,7 +63,7 @@
   Unleash your creativity in the kitchen and share your gastronomic adventures with a community that speaks your culinary language.
   Whether you're a novice seeking inspiration or a seasoned pro looking to showcase your masterpieces, Flavour Sphere is your virtual kitchen companion.”</p>
   
-  <h5 id="Textile II: Spaces" style="color: black; font-size: 55px; font-family: Capriola">Textile II: Spaces</h5>
+  <h2 id="Textile II: Spaces" style="color: black; font-family: Capriola">Textile II: Spaces</h2>
   
   <p style="color: black; font-size: 34px; font-family: Aleo">This section is dedicated to a project that began as an upcycling piece, and ended being published in a local arts magazine, Textile Magazine. The idea behind this piece was to use materials we already had, which in this specific case was a locker door from renovations being done at my high school, to create something new. This piece is also representative of originality, as it transforms something standard into a creative piece.</p>
     
