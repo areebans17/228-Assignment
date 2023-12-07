@@ -2,22 +2,29 @@
 <html lang="en-ca">
   <head>
      <title>228 Assignment 3</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
-  <body style="background-color:#EEF2E3";">
+  <body style="background-color:#EEF2E3">
 
 
   <h1 style="color: black; font-family: Capriola; font-weight: 400">Areeba Shaikh</h1>
   
   <p style="color: black; font-size: 64px; font-family: Bhavuka; font-weight: 400">Digital Design Portfolio</p>
   
-  <canvas id="halfCircle" width="x" height="y"></canvas>
+  <canvas id="circle" width="750" height="250"></canvas>
   <script>
-   var c = document.getElementById("halfCircle");
-   var ctx = c.getContext("2d");
+   let c = document.getElementById("circle");
+   let ctx = c.getContext("2d");
    ctx.beginPath();
-   ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+   ctx.arc(750, 120, 120, Math.PI/2, -Math.PI/2);
+   ctx.fillStyle = "#2A6F2C";
+   ctx.fill();
+  
+   ctx.beginPath();
+   ctx.arc(750, 120, 120, Math.PI/2, -Math.PI/2);
+   ctx.fillStyle = "#2A6F2C";
    ctx.fill();
   </script>
   
