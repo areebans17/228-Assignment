@@ -17,14 +17,19 @@
   <script>
    let c = document.getElementById("circle");
    let ctx = c.getContext("2d");
+    
+  ctx.fillStyle = "black"; // Set text color
+   ctx.font = "60px Arial"; // Set font size and type
+   ctx.fillText("Digital Design Portfolio", 0, 180);
+    
    ctx.beginPath();
    ctx.arc(750, 120, 120, Math.PI/2, -Math.PI/2);
    ctx.fillStyle = "#2A6F2C";
    ctx.fill();
   
    ctx.beginPath();
-   ctx.arc(750, 120, 120, Math.PI/2, -Math.PI/2);
-   ctx.fillStyle = "#2A6F2C";
+   ctx.arc(170, 70, 70, 0, 2 * Math.PI);
+   ctx.fillStyle = "#79C61E";
    ctx.fill();
   </script>
   
